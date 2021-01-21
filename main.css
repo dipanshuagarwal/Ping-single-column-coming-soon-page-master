@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,600,700');
+
+html {
+    font-size: 20px;
+    font-family: 'Libre Franklin';
+    text-align: center;
+}
+
+.normal{
+    color: hsl(223, 87%, 63%);
+}
+
+.attribution{
+    margin: 0 0 2rem 0;
+    font-size: 11px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+    .attribution a:hover {
+        border-bottom-color: hsl(0, 0%, 59%);
+    }
+
+.main-head{
+    font-size: 2em;
+    font-weight: 300;
+}
+
+@media (max-width: 769px) {
+    .main-head {
+        font-size: 1.5em;
+        font-weight: 300;
+    }
+  }
+
+br {
+    display: block;
+    margin-bottom: 1px;
+    font-size:2px;
+    line-height: 2px;
+}
+
+.image{
+    width: 100%;
+}
+
+.social-links {
+    text-align:center;
+}
+
+.social-links a{
+    display: inline-block;
+    width:30px;
+    height: 30px;
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 30px;
+    margin-right: 10px;
+
+}
+.social-links a i{
+    padding: 5px 5px;
+    font-size: 15px;
+    color: hsl(228, 45%, 44%);
+}
+
+.social-links a:hover{
+    background-color: hsl(223, 87%, 63%);
+}
+
+.social-links a i:hover{
+    color: white;
+}
+
+#d{
+    display: inline-block;
+    width: 550px;
+}
+
+@media (max-width: 769px) {
+    #d {
+        display: inline-block;
+        width: 375px;
+    }
+  }
+
+
+@media (min-width: 769px) {
+    #d1 {
+      float: left;
+    }
+  }
+
+
+#ip1 {
+    border-radius: 50px;
+    padding: 20px; 
+    width: 300px;
+    height: 10px;    
+    margin-top: 10px;
+    border-color: hsl(223, 100%, 88%);
+    border: 1px solid hsl(223, 100%, 88%); 
+}
+
+#popUpYes {
+    border-radius: 75px;
+    background: hsl(223, 87%, 63%);
+    padding: 20px; 
+    width: 175px;
+    height: 55px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    border: 1px solid hsl(223, 100%, 88%);
+}
+
+
+#popUpYes:hover
+{
+    cursor: pointer;
+} 
+
+#errorAlert1{
+    font-style: italic;
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+#errorAlert2{
+    font-style: italic;
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+
